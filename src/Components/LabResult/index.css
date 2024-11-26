@@ -1,0 +1,45 @@
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+.lab-results-container {
+    width: 367px;
+    height: 297px;
+    border: 1px solid #ddd; /* Optional: For border around the box */
+    padding: 16px;
+    overflow-y: scroll;
+  }
+  
+  .heading {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .lab-results-list {
+    max-height: 260px; /* Give room for the heading and some padding */
+  }
+  
+  .lab-result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    margin-bottom: 15px;
+    background-color: #f4f4f4; /* Optional: Light background for the list items */
+    border-radius: 8px;
+  }
+  
+  .result-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  .download-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  

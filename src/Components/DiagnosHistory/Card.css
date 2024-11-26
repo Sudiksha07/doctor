@@ -1,0 +1,33 @@
+.card {
+    width: 228px;
+    height: 228px;
+    margin-bottom: 16px;
+    padding: 12px; /* Reduced padding to make the content a bit more compact */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content from the top */
+  }
+  
+  .card-image {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    margin-bottom: 12px; /* Reduced margin to decrease the space between image and text */
+  }
+  
+  .card-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin:2px 0; /* Reduced margin to bring the heading closer to the image */
+    text-align: left; /* Align the heading to the left */
+  }
+  
+  .card-subheading {
+    font-size: 14px;
+    color: #797979;
+    text-align: left; /* Align the subheading to the left */
+    margin-top: 4px; /* Small margin to separate it from the heading */
+  }
+  

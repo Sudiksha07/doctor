@@ -1,0 +1,64 @@
+/* Container for the entire page layout */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 5px;
+  }
+  
+  /* Left Column: 70% Width */
+  .left-column {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-top {
+    /* height: 40%; */
+    /* background-color: #f4b183; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-middle {
+    /* height: 20%; */
+    /* background-color: #c6e0b4; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;  
+    /* justify-content: space-between */
+  }
+  
+  .left-bottom {
+    /* height: 20%; */
+    /* background-color: #ffd966; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  /* Right Column: 30% Width */
+  .right-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-top {
+    /* height: 70%; */
+    /* background-color: #8eaadb; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-bottom {
+    /* height: 20%; */
+    /* background-color: #d9ead3; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

@@ -1,0 +1,78 @@
+
+.headerContainer {
+    width: 800px;
+    display: flex;
+  
+    background: #F6F7F8;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .th {
+    padding: 0.75rem;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  
+  
+  .column1 {
+    width: 23%; 
+    text-align: left;
+  }
+  
+  .column2 {
+    width: 50%; 
+    text-align: left;
+  }
+  
+  .column3 {
+    width: 20%; 
+    text-align: left;
+  }
+  
+
+  .tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+  
+  .td {
+    padding: 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+  }
+  
+  .noData {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+ 
+  .container {
+    width: 766px;
+    height: 349px;
+    padding: 1rem;
+    background: #FFFFFF;
+    border-radius: 16px;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .tableContainer {
+    overflow-y: auto;
+    max-height: 240px;
+    width: 700px;
+  }
+  
+  .tableContainer {
+    overflow-y: auto; 
+    max-height: 170px;
+    width: 700px;
+  }

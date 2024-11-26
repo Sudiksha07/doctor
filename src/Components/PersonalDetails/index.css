@@ -1,0 +1,101 @@
+/* Apply Manrope font globally */
+body {
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  /* Outer container */
+  .outer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+    width: 367px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
+  
+  /* Patient card styling */
+  .patient-card {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Image container */
+  .image-container {
+    position: relative;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  /* Patient image styling */
+  .patient-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Patient name styling */
+  .patient-name {
+    font-size: 24px;
+    font-weight: 600; /* Semi-bold */
+    margin-top: 16px;
+  }
+  
+  /* Patient details section */
+  .patient-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  
+  /* Detail item container */
+  .detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Icon container */
+  .icon-container {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+  }
+  
+  /* Icon styling */
+  .icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Text container for heading and response */
+  .detail-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Heading styling (normal, not bold) */
+  .heading {
+    font-size: 14px;
+    font-weight: normal;  /* Ensure heading is not bold */
+    color: #333;
+  }
+  
+  /* Response styling with ExtraBold */
+  .response {
+    font-size: 14px;
+    font-weight: 800; /* ExtraBold */
+    color: #232323;
+  }
+  
